@@ -26,7 +26,6 @@ for (const key in testimonials) {
 }
 
 // ---- Projects Data ----
-
 const projects = [
   {
     title: "Weather App",
@@ -39,3 +38,17 @@ const projects = [
     tech: "HTML, CSS, JavaScript"
   }
 ];
+
+// ---- Render Projects ----
+const projectsContainer = document.getElementById("projects-container");
+
+for (let i = 0; i < projects.length; i++) {
+  const project = projects[i];
+  const card = document.createElement("div");
+  card.classList.add("project-card");
+  card.innerHTML =
+    "<h3>" + project.title + "</h3>" +
+    "<p>" + project.description + "</p>" +
+    "<p class='tech'>Tech: " + project.tech + "</p>";
+  projectsContainer.appendChild(card);
+}

@@ -29,17 +29,17 @@ for (const key in testimonials) {
 const projects = [
   {
     title: "My Portfolio Website",
-    description: "A personal portfolio website to showcase my skills and projects.",
+    description: "A personal portfolio website to showcase my skills, projects, and contact info. Built as my first real web project.",
     tech: "HTML, CSS, JavaScript"
   },
   {
     title: "Tanga Management System",
-    description: "A management system for handling Tanga records and operations.",
+    description: "A management system for handling Tanga-related records and operations. Includes data entry, tracking, and display features.",
     tech: "HTML, CSS, JavaScript"
   },
   {
     title: "Digit Options",
-    description: "A system for managing digit-based options and displaying results.",
+    description: "A system for managing digit-based options and selections. Designed to handle numerical inputs and display results clearly.",
     tech: "HTML, CSS, JavaScript"
   }
 ];

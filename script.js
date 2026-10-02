@@ -28,13 +28,18 @@ for (const key in testimonials) {
 // ---- Projects Data ----
 const projects = [
   {
-    title: "Weather App",
-    description: "Shows the current weather using a free API.",
+    title: "My Portfolio Website",
+    description: "A personal portfolio website to showcase my skills and projects.",
     tech: "HTML, CSS, JavaScript"
   },
   {
-    title: "To-Do List",
-    description: "Add and remove tasks. Data saved in localStorage.",
+    title: "Tanga Management System",
+    description: "A management system for handling Tanga records and operations.",
+    tech: "HTML, CSS, JavaScript"
+  },
+  {
+    title: "Digit Options",
+    description: "A system for managing digit-based options and displaying results.",
     tech: "HTML, CSS, JavaScript"
   }
 ];

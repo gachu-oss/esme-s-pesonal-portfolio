@@ -11,3 +11,33 @@ body {
   color: #111;
   line-height: 1.6;
 }
+
+/* ---- Navigation ---- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #111;
+  color: white;
+}
+
+nav .logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+}

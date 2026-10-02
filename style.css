@@ -41,3 +41,21 @@ nav ul a {
 nav ul a:hover {
   text-decoration: underline;
 }
+
+/* ---- About ---- */
+#about {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+#about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+#about p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 500px;
+  margin: 0 auto;
+}

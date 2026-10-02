@@ -59,3 +59,16 @@ nav ul a:hover {
   max-width: 500px;
   margin: 0 auto;
 }
+
+/* ---- Sections ---- */
+section {
+  padding: 60px 40px;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #111;
+}

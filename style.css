@@ -72,3 +72,31 @@ h2 {
   margin-bottom: 30px;
   color: #111;
 }
+
+/* ---- Testimonials ---- */
+#testimonials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.testimonial-card {
+  background-color: #f9f9f9;
+  border-left: 4px solid #111;
+  padding: 20px;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.testimonial-card span {
+  font-weight: bold;
+  font-size: 0.88rem;
+  color: #888;
+}

@@ -15,3 +15,19 @@ const testimonials = {
     author: "Marcus Osei, Study Group"
   }
 };
+
+// ---- Render Testimonials ----
+// Loop through the object and add each one to the page
+
+const testimonialsContainer = document.getElementById("testimonials-container");
+
+for (const key in testimonials) {
+  const item = testimonials[key];
+
+  const card = document.createElement("div");
+  card.classList.add("testimonial-card");
+
+  card.innerHTML = "<p>\"" + item.text + "\"</p><span>- " + item.author + "</span>";
+
+  testimonialsContainer.appendChild(card);
+}

@@ -9,7 +9,7 @@ const testimonials = {
     author: "Mad Munga, Club President"
   },
   third: {
-    text: "Really impressed by the progress in such a short time.",
+    text: "Really impressed by his  ability to analyz tasks  and think critically.",
     author: "Lil Maina, Study Group"
   }
 };

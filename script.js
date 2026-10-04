@@ -28,19 +28,19 @@ for (const key in testimonials) {
 // ---- Projects Data ----
 const projects = [
   {
-    title: "My Portfolio Website",
-    description: "A personal portfolio website to showcase my skills, projects, and contact info. Built as my first real web project.",
+    title: "Tanga Website",
+    description: "A corresponding  website to showcase what tanga glass and  aluminium actually does.",
     tech: "HTML, CSS, JavaScript"
   },
   {
     title: "Tanga Management System",
-    description: "A management system for handling Tanga-related records and operations. Includes data entry, tracking, and display features.",
-    tech: "HTML, CSS, JavaScript"
+    description: "A management system for handling Tanga-related records and operations. Includes data entry, tracking and stock managment, and an interactive ui .",
+    tech: "HTML, CSS, JavaScript type script"
   },
   {
     title: "Digit Options",
     description: "A system for managing digit-based options and selections. Designed to handle numerical inputs and display results clearly.",
-    tech: "HTML, CSS, JavaScript"
+    tech: "HTML, CSS, JavaScript,typescript"
   }
 ];
 
